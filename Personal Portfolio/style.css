@@ -1,0 +1,232 @@
+
+@import url('https://fonts.google.com/specimen/Abel');
+@import url('https://fonts.googleapis.com/css?family=Delius');
+
+
+page.page-header {
+background-color: #1D2731;
+max-width: 100%;
+    
+    }
+
+
+h1 {
+text-align: left;
+font-family:'Abel', sans-serif;
+font-size: 32px; 
+color: #1D2731;
+background-color: #94618E;
+
+    }
+
+
+h2 {
+font-family: 'Abel', sans-serif;
+font-size: 24px;
+color: #1D2731;
+background-color: #94618E; 
+
+
+    }
+
+h2.blog-inner {
+text-decoration: underline;
+background-color: #D2D0D3;    
+    
+    }
+
+
+div.text {
+padding-left: 50px;
+padding-right: 50px;
+    
+    }
+
+
+body  {
+font-family: 'Delius';
+font size: 0.875em;
+color: #49274A;
+background-color:  #D2D0D3;  
+width; 18.750em;
+padding; 20px;
+margin: 20px;
+border: solid;
+        
+    }
+
+div.skiplinks {
+display: inline-block;
+width: 100%;
+text-align: center;
+background-color: #49274A;
+
+    }
+
+a.skip {
+display: inline-block;
+position: relative;
+text-align: center;
+font-size: 0.875em;
+    
+    }
+
+nav.main-nav {
+align-content: center;
+font-family: 'Delius';
+font-size: 0.714;
+color: #D2D0D3  ;
+background-color: #49274A  ;
+
+    }
+
+
+div.navi {
+width: 100%;
+text-align: center;
+    
+}
+
+
+li.navi {
+display: inline-block;
+position: relative;
+text-align: center;
+font-size: 1.667em;
+
+    }
+
+a.navi {
+list-style: none;
+display: block;
+padding-top: 1.125em;
+padding-left: 0.625em;
+padding-right: 0.625em;
+padding-bottom: 1.125em;
+background-color: #49274A;
+    }
+
+
+img.img-circle {
+border-style: ridge;
+border-color: #1D2731;
+border-radius: 15%;
+float:left;
+clear: right;
+margin-right: 10px;
+margin-bottom:10px;
+max-width: 100%;
+
+    }
+
+
+img.bannerlogo {
+    display: block;
+    margin: auto;
+    width: 100%;
+background-color: #1D2731;
+
+    }
+
+
+img.blog-img {
+    max-width: 100%;
+    height: auto;
+    
+    }
+
+
+article{
+    display:block;
+}
+
+
+div.contactform { 
+text-align: center;
+max-width:  100% ;
+
+    }
+
+
+ul.contact {
+    list-style: none;
+    text-align: center;
+    
+    }
+
+
+p.cv {
+text-align: center;
+    }
+
+
+button {
+    border: none;
+    color: #D2D0D3;
+    background-color: #1D2731;
+    padding: 15px 32px;
+    text-align: inherit;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.000em;
+    }
+
+button.blogback {
+  font-size: 25px;
+  font-family: 'Abel', sans-serif; 
+  color: #D2D0D3;
+  background-color: #38343d;
+  border: solid 2px #49274A; 
+  border-radius: 25% 20% 25% 20%;
+}
+
+button.blogback:hover { 
+opacity: 0.7;
+filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+input {
+padding: 20px 5px 20px 5px;
+max-width:  100% ;
+height: 90%;
+font-family: 'Delius';
+text-align: left;
+color: #1D2731;
+background-color: #F4DECB;
+    }      
+
+
+textarea {
+padding: 20px 5px 20px 5px;
+max-width:  100%;
+height: 90%;
+font-family: 'Delius';
+text-align: left;
+color: #1D2731;
+background-color: #F4DECB;
+    }
+
+
+ul.skills {
+    list-style-image: url(media/bulletround.png);
+list-style-type: disc;
+    }
+
+ul.blogpage {
+    font-size: 18px; 
+    list-style: none;
+    font-variant: small-caps;
+    color: #1D2731;
+}
+
+footer.page-footer {
+    text-transform: inherit;
+    text-align: center;
+    }
+
+
+a:link {color:#94618E;}
+a:visited {color:#94618E;}
+a:hover {color:#F4DECB;}
+a:active {color:#94618E;}

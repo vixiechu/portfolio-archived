@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+    <head> 
+    <meta charset="utf-8">
+        <title> BLOG | Vix Morrigan </title>   
+<!--Description--> 
+    <meta name="description" content="Vix Morrigan - An open minded, self motivated full time student at Manchester Metropolitan (MMU) working in Social Media; aspiring to be a front end Web Developer"> 
+<!--Viewport--> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--[if lt IE 9]> 
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> 
+        <![endif]--> 
+        
+<!--Keywords--> 
+    <meta name="keywords" content="Vix Morrigan portfolio, professional portfolio, student portfolio, student, web development, web design, MMU, Manchester Metropolitan university, UXD, UX, HTML, blog, manchester, junior developer, social media">
+<!--Stylesheet--> 
+<link rel="stylesheet" href="style.css">
+        
+        </head>
+ 
+    
+ <body>
+<!--Skip Links-->
+        <div class="skiplinks">
+                <a href="#content">Skip to Content</a>
+            
+     </div>
+
+<!--Navigation-->
+         <div class="navi">     
+        <nav id="navigation" class="main-nav">
+            <ul class="nav">
+                <li class="navi"><a class="navi" href="index.html">Home           </a></li>
+                <li class="navi"><a class="navi" href="projects.html">Projects   </a></li>
+                <li class="navi"><a class="navi" href="blog.html">Blog             </a></li>
+                                                        </ul>
+            
+                                                        </nav>
+</div> 
+<main>
+<div class="text">
+<article>
+<h2>&#9824;CSS Animation&#9824;</h2>
+    <h2 class="blog-inner">Aim &amp; Objectives</h2>
+    <h3>Aim</h3>
+    <p>&#9824;To create an animation using CSS Animation; featuring a cute bat character that is dozing off and starting back awake on a loop.</p>
+    <h3>Objectives</h3>
+    <ul>
+    <li>To learn SCCS &amp; CSS3 and expand Understanding</li>
+    <li>To research and understand colour schemes better</li>
+    <li>To practice the elements required and build the character</li>
+    <li>To test the animation and host it on Codepen</li>
+    </ul>
+    
+    <h2 class="blog-inner">What is CSS Animation?</h2>
+    
+    <p>CSS animations make it possible to animate transitions from one CSS style to another fluidly. CSS Animations consist of two components, a style describing the CSS animation and a set of keyframes that indicate the start and end states of the animation's style, as well as possible intermediate waypoints if, as and when required. </p>
+    
+    <h2 class="blog-inner">Researching CSS Animation &amp; SCSS</h2>
+    
+    <p>CSS Animation animates without the use of Java or Flash – which is not only impressive but offers quite a stable animation as the final output.  I must admit, I had a lot of fun when looking for inspiration on CSS Animations (this <a href="https://codepen.io/ajerez/pen/EaEEOW">adorable Submarine</a> being one of my favourites) as there is so many wonderful things that can be done with it. </p>
+    
+    <p>Once I stopped being in awe of all the cute creatures and beautifully fluid transitions I was witnessing, I turned to <a href="https://www.w3schools.com/css/css3_animations.asp">W3Schools</a> as my first port of call. This is where I learnt about the keyframes element. </p>
+    
+    <p><img class="blog-img" src="media/bartok.PNG" alt="A still image of Bartok - the CSS Animation bat Vix Morrigan made"></p>
+    
+    
+    <p>For research into SCSS, I found this <a href="http://www.joeloliveira.com/2011/06/28/the-ampersand-a-killer-sass-feature/">great article</a>, which helped me to understand the parent and child element and where I needed to semantically put the code for it to work successfully. As I have prior knowledge in CSS, I just needed to fully grasp the integration of the new rules and features of SCSS. Codepen was also incredibly useful for seeing how this works when applied. </p>
+    
+    <p>I also used <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Tips">developer.mozilla.org</a> and <a href="https://css-tricks.com/almanac/properties/a/animation/">CSS-tricks</a> to ensure I fully understood the keyframes element and the structure required to build and run a successful animation. As I wanted to create an animated bat that dozed off and startled awake on a loop, I had to figure out which elements needed to do what; Were any stationary? Where did I want the bat to be? </p>
+    
+    <h2 class="blog-inner">Applying CSS Animation</h2>
+    
+    <p>I needed to structure the bat properly, ensuring I had all the visible elements required. After spending (maybe a little too much time) looking at the structure of a bats face, I decided that I would need three elements as pairs; eyes, ears and wings. I would also need the bat’s overall structure, the face and nose, and any added features. </p>
+    
+    <p><img class="blog-img" src="media/batstructure.PNG" alt="a snip of vix morrigans coding bat structure"></p>
+    
+    <p>I also needed to make sure I was naming elements correctly, so it was easier when it came to the styling (a lesson I learnt previously – those damn curly boys!). </p>
+    
+    <p>Once this was done, I opted for colours that were bat-like (purple is associated with Halloween bats, right?!) and also ones that would compliment the colour scheme on my portfolio website. I intend to have a sub-page with CSS Animations I have made in the future, however I need to build a few more before I apply this change in full!</p>
+    
+    <p>As it was my first time using CSS Animation, I decided to keep my bat relatively simple, with only two elements that would animate. I also opted to include the background in as part of the animation; allowing me to focus on the individual elements. </p>
+    
+    <p><img class="blog-img" src="media/batstyling.PNG" alt="snip of vix morrigan's styling code off codepen"></p>
+    
+    <p>I added styling on the ears and eyes, with ear fuzz (yes, that is the scientific name for it) and a glare on the eye pupils. I also used box-shadow to add a shading for the wings, to show they were two individual elements. I also added a small blob on the eyes to add a bit more character to my bat - who is loosely inspired by <a href="http://studio-ghibli.wikia.com/wiki/Jiji ">JiJi</a> from Kiki’s delivery service. </p>
+    
+    <p>Once I essentially had my bat, it was time to create animations to do what my bat needed; to have droopy eyelids and pupils that dart around once he wakes up again, This involved what I had learned about @keyframes coming into play, to get the timing of the droopy eyelids to work with the shifting pupils. </p>
+    
+    <p><img class="blog-img" src=media/doze.PNG alt="keyframe codes and animation code for bat eyelid animation"></p>
+    
+    <p>I aptly named the eyelid animation doze and set it to ease-in to give a soft effect. I set the different timeframes, so I could achieve the dozing affect. I decided on 5 seconds as it was a sleepy animation; although this may seem a little slow; it gave my desired effect. I changed the style of the height over different keyframes over the 5 second period to give the effect of droopy eyelids. </p>
+    
+    <p><img class="blog-img" src=media/wakeup.PNG alt="keyframe codes and animation code for bat pupil animation"></p>
+    
+    <p>I named the pupil animation wake up and set it to infinite. I did not use ease-in as I wanted to achieve a sudden, darting effect, as if startled awake.  I decided to use the transform:translate styling option (as this is used to move an element from its current position). 
+ I needed to play around a little to ensure the pupils moved after the eyelids lifted back up – after (a lot) of trial and error I managed to get it running how I wanted. 
+</p>
+    
+    <h2 class="blog-inner">Evaluation</h2>
+    <p>I really enjoyed learning about SCSS and applying what I had learnt when creating my bat. I wanted to create the bat as I felt it was something that I could show to those in my personal life who aren’t that technologically aware as a demonstration of not only what I can do, but also what you can do through programming. </p>
+    
+    <p>One of my favourite things that I have discovered through learning CSS Animation and SCSS is using the $variables, specifically $color-name to allocate your colours – this is so much easier than copying and pasting hex codes or playing a small game of memory whilst coding. I have also learnt they can be used in a more advanced way, to <a href="https://scotch.io/tutorials/aesthetic-sass-2-colors">create colour palettes for easy reference and styling </a>– which is something I will be doing very soon I assure you! </p>
+    
+    <h2 class="blog-inner">My CSS Animation</h2>
+    
+    <p>You can see <a href="https://codepen.io/vixiechu/pen/bvdqNd">Bartok - My CSS Animated Bat here</a>p>
+    
+    <h2 class="blog-inner">References</h2>
+    
+    <p>CodePen. (2018). <em>Submarine with CSS. </em>[online] Available at: https://codepen.io/ajerez/pen/EaEEOW [Accessed 4 Feb. 2018].</p>
+    
+    <p>W3schools.com. (2018).<em> CSS Animations. </em>[online] Available at: https://www.w3schools.com/css/css3_animations.asp [Accessed 2 Feb. 2018].</p>
+    
+    <p>CSS-Tricks. (2011). <em>animation</em> | CSS-Tricks. [online] Available at: https://css-tricks.com/almanac/properties/a/animation/ [Accessed 1 Feb. 2018].</p>
+    
+    <p>Oliveira, J. (2011). <em>The ampersand &amp; a killer Sass feature.</em> [online] Joeloliveira.com. Available at: http://www.joeloliveira.com/2011/06/28/the-ampersand-a-killer-sass-feature/ [Accessed 10 Feb. 2018].</p>
+    
+    <p>MDN Web Docs. (2017). <em>CSS Animations tips and tricks. </em>[online] Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Tips [Accessed 2 Feb. 2018].</p>
+    
+    <p>Scotch. (2015). <em>Aesthetic Sass 2: Colors and Palettes. </em>[online] Available at: https://scotch.io/tutorials/aesthetic-sass-2-colors [Accessed 5 Feb. 2018].</p>
+    
+
+<a href=blog.html> <button class="blogback" type="submit">Back</button></a>
+    </article>
+     </div>
+     </main>  
+            
+<!--FOOTER  --> 
+<footer class="page-footer">
+
+<p>&copy; <a href="http://www.mmu.ac.uk/" title="MMU Homepage">MMU 2017</a> | Vix Morrigan  | <a href="http://validator.w3.org/check?uri=referer" title="W3C HTML Validation Service" >Valid HTML</a> </p>
+
+</footer>   
